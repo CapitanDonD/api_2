@@ -34,7 +34,7 @@ if __name__ == "__main__":
     load_dotenv()
 
     parser = argparse.ArgumentParser(
-    description='Эта программа переобразовавыет битлинк и может показать клики по нему'
+        description='Эта программа переобразовавыет битлинк и может показать клики по нему'
     )
     parser.add_argument('url_or_bitly', help='Битлинк или ссылка')
     args = parser.parse_args()
