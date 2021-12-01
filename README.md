@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ### How to run
 To run the program itself, you need to write the following command on the command line:
 ```
-python main.py
+python main.py *your url or bitly*
 ```
 
 ### Project Goals
