@@ -11,7 +11,7 @@ will appear in the settings, after clicking on "Generate token". Then,
 in the program folder, create a file called ".env". In it you need to
 insert this:
 ```
-BITLY_TOKEN = "your token"
+BITLY_TOKEN="your token"
 ```
 
 Python3 should be already installed.
