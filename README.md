@@ -19,6 +19,11 @@ Then use `pip` (or `pip3`, if there is a conflict with Python2) to install depen
 ```
 pip install -r requirements.txt
 ```
+### How to run
+To run the program itself, you need to write the following command on the command line:
+```
+python main.py
+```
 
 ### Project Goals
 
