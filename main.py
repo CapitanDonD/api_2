@@ -34,9 +34,9 @@ if __name__ == "__main__":
     load_dotenv()
 
     parser = argparse.ArgumentParser(
-    description = "Эта программа переобразовавыет битлинк и может показать клики по нему"
+        description = "Эта программа переобразовавыет битлинк и может показать клики по нему"
     )
-    parser.add_argument('url_or_bitly', help='Битлинк или ссылка')
+    parser.add_argument("url_or_bitly", help="Битлинк или ссылка")
     args = parser.parse_args()
     bitly_token = os.getenv("BITLY_TOKEN")
     bitly_headers = {"Authorization" : f"Bearer {bitly_token}"}
